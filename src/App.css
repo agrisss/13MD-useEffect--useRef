@@ -1,0 +1,32 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.card {
+  padding: 2em;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 500px 500px;
+  gap: 40px;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  background-color: rgb(43, 21, 51);
+  padding: 30px;
+  border-radius: 20px;
+}
+
+.wrapper__cloner {
+  display: flex;
+  flex-direction: row;
+}
